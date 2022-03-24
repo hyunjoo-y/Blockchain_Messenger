@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp"
+            app:srcCompat="@drawable/top" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/userProfileImageVIew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/profile" />
+
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="25dp"
+                    android:text="ID"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ems="10"
+                    android:hint="No duplicates"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#424141"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Password"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ems="10"
+                    android:hint="Keep your keystore safe"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#424141"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Username"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ems="10"
+                    android:hint="Enter your name"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#424141"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Status Message"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ems="10"
+                    android:hint="Enter a status message"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#424141"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/signUpButton"
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/logo"
+                    android:text="Sign UP"
+                    android:textAllCaps="false"
+                    android:textColor="#FDFDFD"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

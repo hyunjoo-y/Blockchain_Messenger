@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710371227366",
+    "project_id": "blockchain-messenger-3a9cb",
+    "storage_bucket": "blockchain-messenger-3a9cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710371227366:android:1b90b1467ab26ee912ad27",
+        "android_client_info": {
+          "package_name": "com.example.blockchain_messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710371227366-ae33vh4rtr45k315vlafn50nltmvkklv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcCD0Nimaq3_OY_AZ7J02vQ3Wk_GHIC6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710371227366-ae33vh4rtr45k315vlafn50nltmvkklv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
