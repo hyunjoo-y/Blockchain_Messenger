@@ -29,10 +29,15 @@ Blockchain Messenger는 **블록체인 기반 사용자 정보 관리 및 libp2p
 ## 주요 개발 화면
 
 - 로그인 화면(성공, 실패)
+  
 <img width="1425" alt="image" src="https://github.com/user-attachments/assets/65610dc4-416f-4add-bfe7-f696290f2d11" />
 
 - 친구 관리(프로필)
+  
 <img width="896" alt="image" src="https://github.com/user-attachments/assets/342ddeed-6d6a-4bf8-9345-2475fa9f6afe" />
 
 - 동일한 네트워크에 연결된 디바이스 간 P2P 채팅(상단: 스마트폰 / 하단: 태블릿)
+  
 <img width="918" alt="image" src="https://github.com/user-attachments/assets/b74711be-00d9-4c17-b0c8-76e5bf469fb0" />
+
+---
